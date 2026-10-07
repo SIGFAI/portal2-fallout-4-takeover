@@ -1,0 +1,450 @@
+{
+  "id": "sigf/portal2-fallout-4-takeover",
+  "version": "1.0.0",
+  "name": "Fallout 4 Takeover",
+  "tagline": "Bring Fallout 4 into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "portal2",
+      "role": "host",
+      "engine": "Portal 2 (Source, 32 bits) + VScript (Squirrel 2.2)",
+      "apps": {
+        "steam": "620"
+      }
+    },
+    {
+      "game": "fallout4",
+      "role": "guest",
+      "label": "Fallout 4"
+    }
+  ],
+  "requires": [],
+  "install": [
+    {
+      "game": "portal2",
+      "strategy": "args",
+      "files": [
+        {
+          "src": "portal2-fallout-4-takeover.zip",
+          "dst": "{game}/sigf_fallout_4_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "materials/models/sigf/sigf_bobble.vmt",
+              "sha256": "77ffb7c79dbe9a716f420e433caf3843db9f3aa489f17d7b7882f411a27f78bc"
+            },
+            {
+              "path": "materials/models/sigf/sigf_bobble.vtf",
+              "sha256": "effa7059e014737edfab6eb91c039db3c6a9728043ff3f86d35c4541b999234d"
+            },
+            {
+              "path": "materials/models/sigf/sigf_cap.vmt",
+              "sha256": "44c8767a7d107d01197843da2214ee1681b14a6c7880887696e0bc3000801096"
+            },
+            {
+              "path": "materials/models/sigf/sigf_cap.vtf",
+              "sha256": "5cec6f7d5d796e33956f8450affd653a2df8eedddd58a0c9d6191e2ae30b1bc1"
+            },
+            {
+              "path": "materials/models/sigf/sigf_crate.vmt",
+              "sha256": "e3af943090648f0501bebb7858c22787dffff1966f78cbb6c54171edfc30a3cc"
+            },
+            {
+              "path": "materials/models/sigf/sigf_crate.vtf",
+              "sha256": "ef5521a7aed7c1ccf2ad4e8c99135f43c6aa294acb772d7ba84045703fbd08a9"
+            },
+            {
+              "path": "materials/models/sigf/sigf_fatman.vmt",
+              "sha256": "81f69b684d225c697e0d95eb1d76fdf26cd7d9268678957e54cce84f5523656f"
+            },
+            {
+              "path": "materials/models/sigf/sigf_fatman.vtf",
+              "sha256": "6be563648b7d79bd136389f27e6f00b4adca24311263eba212558a85ddcccf7e"
+            },
+            {
+              "path": "materials/models/sigf/sigf_handy.vmt",
+              "sha256": "a4cb6a50a48474b0c0c12b64d9589bd52f7341b307cf859756bdc9e1e974726b"
+            },
+            {
+              "path": "materials/models/sigf/sigf_handy.vtf",
+              "sha256": "97fb552fa89fc928486c38cc186720835b54d1179e93b3de7061cf7452723076"
+            },
+            {
+              "path": "materials/models/sigf/sigf_mushroom.vmt",
+              "sha256": "f1e45c7ed7fb22550490fe1fe18caf6780f3ef30d76f36ec9f737649c1ed2a8a"
+            },
+            {
+              "path": "materials/models/sigf/sigf_mushroom.vtf",
+              "sha256": "da5e476585275e68b92382b2675b26aed4a6db20568ec4bfde4f5da086fa916c"
+            },
+            {
+              "path": "materials/models/sigf/sigf_nuka.vmt",
+              "sha256": "f3ae8d9a20591b15012184d2a207ddc31dfdfb6af666a2b3ec3f658d715a3356"
+            },
+            {
+              "path": "materials/models/sigf/sigf_nuka.vtf",
+              "sha256": "e2daca2f30ce2333ae9e0a368def1aff9f60749ecfd809063cc9cdfab9560b36"
+            },
+            {
+              "path": "materials/models/sigf/sigf_rift.vmt",
+              "sha256": "4e26db157732e0651e1653495ffc5f167a073b7f9e310d2e2b88124177762a93"
+            },
+            {
+              "path": "materials/models/sigf/sigf_rift.vtf",
+              "sha256": "1b56ae5baa33761a7f8ea22593d8a103368f98695c9d269002f8127d12a3ff5f"
+            },
+            {
+              "path": "materials/models/sigf/sigf_roach.vmt",
+              "sha256": "4d6f39414a81c978d10e4972f6cdc923afc646946ea6311ff6cae01e400a0612"
+            },
+            {
+              "path": "materials/models/sigf/sigf_roach.vtf",
+              "sha256": "962180e8daf473cb2cb647d9ed80adf21d752286ef0d2f2af43ae03dd7cfb657"
+            },
+            {
+              "path": "materials/sigf/ov_pip.vmt",
+              "sha256": "4f5ea76f66eabde1853d8e6c8e8776610ce05eae24c535bc58a9399cd53e57ce"
+            },
+            {
+              "path": "materials/sigf/ov_pip.vtf",
+              "sha256": "615cd259571f58eb1ff5c510602512e98f08e92df121ee444b4a556a3f67b87d"
+            },
+            {
+              "path": "models/sigf/bobble.dx90.vtx",
+              "sha256": "7f836d0d35869b77dcf0752d18dc26d31098d25e4e47b1877110bc09a6e9fc1d"
+            },
+            {
+              "path": "models/sigf/bobble.mdl",
+              "sha256": "24c7a91f0e45590445136abef6670ee07f3fb130cea5f4cb42de1baf5c316cab"
+            },
+            {
+              "path": "models/sigf/bobble.phy",
+              "sha256": "46172d9c134231044d80e586d8d576908942577a90dde274eb6b35f69c8db8a2"
+            },
+            {
+              "path": "models/sigf/bobble.vvd",
+              "sha256": "192083d01aec998837b3cbe64455134afa4a738dae50e6904cf2d19d57a5e946"
+            },
+            {
+              "path": "models/sigf/cap.dx90.vtx",
+              "sha256": "df74e3f754da2ec7c7c8bcbe54876d5c0e30b0cad2a2d34a4c09bc1ed4ef9212"
+            },
+            {
+              "path": "models/sigf/cap.mdl",
+              "sha256": "9dbc75f12628d69743ccaf1efe0c0e1167aa36e4bcc11b115deb9413cd307ecc"
+            },
+            {
+              "path": "models/sigf/cap.phy",
+              "sha256": "b8478208c17e74a8e29e9ab1c23272868b49c9f7a49af35204d28f5a7569ddd9"
+            },
+            {
+              "path": "models/sigf/cap.vvd",
+              "sha256": "159121d72aa24a3e767a792adf2b2ab9a8c3eebdbf093f18198a91f894fe1014"
+            },
+            {
+              "path": "models/sigf/crate.dx90.vtx",
+              "sha256": "d870bed941906ab26b5666233909e87595e2617aae97eb7246d528f8f0c2cb91"
+            },
+            {
+              "path": "models/sigf/crate.mdl",
+              "sha256": "da7ede45e4da04731d3f9bda01b3dc2081aa1c0cbe2d312974de6f6bc90124f8"
+            },
+            {
+              "path": "models/sigf/crate.phy",
+              "sha256": "9e9c822bfbdc1a274d6f6549ba686d945403d1e25695e438fbc606fe00fff25f"
+            },
+            {
+              "path": "models/sigf/crate.vvd",
+              "sha256": "050096288e2d1b711f863f321164620e2a81ac6048bd7d49f83690b6453b4606"
+            },
+            {
+              "path": "models/sigf/fatman.dx90.vtx",
+              "sha256": "0da07204504d7e49414e81947ff282a8a953109bac78ee2f21b0f5c21f28bc8f"
+            },
+            {
+              "path": "models/sigf/fatman.mdl",
+              "sha256": "e960edb3a85d835ac6a30cb78dbe08da2d6fcc8bcb720a80b78b11e93e02407c"
+            },
+            {
+              "path": "models/sigf/fatman.phy",
+              "sha256": "a2e96a0944b6b144e3060e0135268f39081f0bb5f48080be1ee4e4c17ff4227c"
+            },
+            {
+              "path": "models/sigf/fatman.vvd",
+              "sha256": "972468bf0461eaf828ecf008b56f8a0ca08d451fb8d4562e15eb41b186875589"
+            },
+            {
+              "path": "models/sigf/handy.dx90.vtx",
+              "sha256": "8d9f8712fb89662950d73d18efbc4ea84b44bc6a4d5ddbad0d7de52d623eb3c0"
+            },
+            {
+              "path": "models/sigf/handy.mdl",
+              "sha256": "08773e45d144daefd2f976664cd109a953772aab68b04635f5528d2defd30c3b"
+            },
+            {
+              "path": "models/sigf/handy.phy",
+              "sha256": "e2f154ac9ea0473dd98d109d0017e447da5009326fb5beb6085aa7427fd73ba4"
+            },
+            {
+              "path": "models/sigf/handy.vvd",
+              "sha256": "3f67fbefe33f139feb634412423537db3d3ee24011369f1e1af559c21735b8c2"
+            },
+            {
+              "path": "models/sigf/mushroom.dx90.vtx",
+              "sha256": "fa530ef30eb1cd1bf25e21b1a15e063a94dcb1bc193848c7e0f9f2d91caa260d"
+            },
+            {
+              "path": "models/sigf/mushroom.mdl",
+              "sha256": "9c52a6712ff87433ec1fac0a2bbb73ecf6e66ce30a96d4246b57f08c1f776a07"
+            },
+            {
+              "path": "models/sigf/mushroom.phy",
+              "sha256": "57ea06bb020efa3c8af2146d142c24005845e61ee69473a6772a4bb7c5031ace"
+            },
+            {
+              "path": "models/sigf/mushroom.vvd",
+              "sha256": "210563435896aacd6cfdd89fa05ed11388a259c994dbc3a530a35afdb1fb44f7"
+            },
+            {
+              "path": "models/sigf/nuka.dx90.vtx",
+              "sha256": "1e91b55436c0ed84bb79522065f1df7b8c7b9c3f81f7eb4ed8e745a4bf90f31f"
+            },
+            {
+              "path": "models/sigf/nuka.mdl",
+              "sha256": "17ff16ac8eea1ddd73fb2119f803d71081cb0338e088c4c91fb5d6114b424cf0"
+            },
+            {
+              "path": "models/sigf/nuka.phy",
+              "sha256": "341ccca1b657f218a2e7e5f36ecdbb362d15a0024e92e264b78123be6d8ac3f4"
+            },
+            {
+              "path": "models/sigf/nuka.vvd",
+              "sha256": "87f2e643c1cd2d651223b8dbe7991e4c617e2ab8a6a104a53a1dc7a7be2156c9"
+            },
+            {
+              "path": "models/sigf/rift.dx90.vtx",
+              "sha256": "e69aad15a31ef6365d1403ed3f20599ff799823bcb00dbc1d35b1ac16d7d7550"
+            },
+            {
+              "path": "models/sigf/rift.mdl",
+              "sha256": "2b3bddbcca1f3d29b5aed6a35070e488200e0ab56e6feeadd038d4ca057f8564"
+            },
+            {
+              "path": "models/sigf/rift.phy",
+              "sha256": "f9fb69d4a79a2379d3eadb3e23b245dd56dfdcd8185abfb2c049f6f8fa24ff2c"
+            },
+            {
+              "path": "models/sigf/rift.vvd",
+              "sha256": "482666fecb99c8a17dde3ebef4415f1c44935ed5c45be80401fd523d235a6f81"
+            },
+            {
+              "path": "models/sigf/roach.dx90.vtx",
+              "sha256": "eb795e7b931efb8171c37ecbf2b2fb4fcd14d402716b597ef27a34f0ffd0fa8e"
+            },
+            {
+              "path": "models/sigf/roach.mdl",
+              "sha256": "bd17514ff4ab9d34f6eed7d663fe1a09ccbe03fe5ba0a862d64fad51b61769cf"
+            },
+            {
+              "path": "models/sigf/roach.phy",
+              "sha256": "099937c9fe879c48a5b8536a3bfbfd46d2336242b9985cc2451686b7971a1d72"
+            },
+            {
+              "path": "models/sigf/roach.vvd",
+              "sha256": "ce004b7b66b3d78c5f4843f31b2fec8666a3880dcc14a3ff81098b1b2c7f65e2"
+            },
+            {
+              "path": "scripts/vscripts/sigf_demo.nut",
+              "sha256": "0ae8b34e91d46e5544b7e13599527297c93ff259effac7acf5249c7779b1c122"
+            },
+            {
+              "path": "scripts/vscripts/sigf_fo_enemy.nut",
+              "sha256": "5b7c5e3c1f0e33d86c04a322e5c934e26c32e9db9462755df9d8e84c677e048a"
+            },
+            {
+              "path": "scripts/vscripts/sigf_fo_nuke.nut",
+              "sha256": "7586a36a091659294e8eddaf86deb81b98bd9ad7a84dd0af77f28f61e0113da3"
+            },
+            {
+              "path": "scripts/vscripts/sigf_mod.nut",
+              "sha256": "12db7d281290c73842ebe7a53dd2b33bcdfe7f2b755236ad0063ddd8d7f7238f"
+            },
+            {
+              "path": "sound/sigf/bottle_pop.wav",
+              "sha256": "8dae4a266eb4765baddbf391e04d24fb2e592e960f90384c9c12119931790011"
+            },
+            {
+              "path": "sound/sigf/bottle_smash.wav",
+              "sha256": "ebf40e8b4fc1fc104d55c6a899d0cdde34f9762a425288ffc704200ca64ef832"
+            },
+            {
+              "path": "sound/sigf/caps.wav",
+              "sha256": "b36b165a56f4c579da0dfc8cfda4027c12f6ebd9933c417d4beb98151b188068"
+            },
+            {
+              "path": "sound/sigf/crit.wav",
+              "sha256": "f9a8e2f38e2a2d9cab7bc3e0adc83a470d3511c73de695078ae513e688de8190"
+            },
+            {
+              "path": "sound/sigf/geiger.wav",
+              "sha256": "07028ca8a7908423fe7facb3386ea65ea1dbd00f92f02e7492c67e81d8af9335"
+            },
+            {
+              "path": "sound/sigf/handy_hello.wav",
+              "sha256": "c896342a0471d89cf85f7c476b807295f93cb1c91dcee986310c0484a2eabd59"
+            },
+            {
+              "path": "sound/sigf/handy_zap.wav",
+              "sha256": "cd55d7a2b3d0bd03cc088b5b9c25b4ec482b46988dfe8c7b975764b03c88f913"
+            },
+            {
+              "path": "sound/sigf/levelup.wav",
+              "sha256": "bad994fe2a792a9a5c8c007ae71086adb86985d2ec05c5f39bea6b11b84568ba"
+            },
+            {
+              "path": "sound/sigf/narrator.wav",
+              "sha256": "c6ec9468824a8940d894f08ccf804e76527a8490590aa2cc5f74e73040ec4250"
+            },
+            {
+              "path": "sound/sigf/nuke_boom.wav",
+              "sha256": "285ece76cf8b7daec5f3f4721e04136c1cf0b68e85b3814a2b5082d7b727ff49"
+            },
+            {
+              "path": "sound/sigf/nuke_siren.wav",
+              "sha256": "de30f0387f252d00728c39292072de9ff6b2a6399bfd88ed573e3d8fa4913f8a"
+            },
+            {
+              "path": "sound/sigf/radio_loop.wav",
+              "sha256": "4e892cfff92f06c7ff622e84483a18452f85ca4625ec214146fee4cbcb35249e"
+            },
+            {
+              "path": "sound/sigf/roach_die.wav",
+              "sha256": "cf6acbfe81f3fe6eb8b056e74f83d9d04a5da0238bea8f8374228c3144f51232"
+            },
+            {
+              "path": "sound/sigf/roach_hit.wav",
+              "sha256": "65c1f0a7593d553a840dd8dbba6327b7bc8cdc87bb05c8ea7aa23588f0466412"
+            },
+            {
+              "path": "sound/sigf/vats.wav",
+              "sha256": "cb1508c2b578cd572c992f8f67eb917797dc4480aa2725db073864d52c51f16b"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/portal2-fallout-4-takeover/releases/download/v1.0.0/portal2-fallout-4-takeover.zip",
+          "sha256": "72a46acd3306da166f573b627501a7227384cfc9e962db7de8f2cc115f873483",
+          "size": 24465425
+        },
+        {
+          "src": "portal2-fallout-4-takeover-game-kit.zip",
+          "dst": "{game}/sigf_fallout_4_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "cfg/sigf_game.cfg",
+              "sha256": "9d652794ee9f51c55c08d4bc2020f29ebe8bacf55b19b7287702160c79dac580"
+            },
+            {
+              "path": "cfg/sigf_rec.cfg",
+              "sha256": "e7815e54ae79bbb159a36435022750280ad2992ece2c2a9b570c6ff4db184cca"
+            },
+            {
+              "path": "gameinfo.txt",
+              "sha256": "509c58bbd5a477768b3e34f3a6dba6d9d6e7507715bb72606b841872e73f2539"
+            },
+            {
+              "path": "materials/sigf/kit_portal_blue.vmt",
+              "sha256": "b5b5a1f62c170477fdf0cb523b21c3da397a85b0cad470e2e8e90a61763200f4"
+            },
+            {
+              "path": "materials/sigf/kit_portal_blue.vtf",
+              "sha256": "66a14c89c2fa080aea7953d6d741f55025f339416b713aaafadd5f54d15a7ecf"
+            },
+            {
+              "path": "materials/sigf/kit_portal_orange.vmt",
+              "sha256": "d745e5b8629577b7ece072a1135cda1edbd9562c364e2641d45599b58853c45a"
+            },
+            {
+              "path": "materials/sigf/kit_portal_orange.vtf",
+              "sha256": "8b87f69add0d1849d8bdc06d5e1135531517150a0173d44bdefb7e293c7c9358"
+            },
+            {
+              "path": "resource/sigf_english.txt",
+              "sha256": "9d23aa78f2e7839a8db29acf2e58839e73612c33bb2ed29fd9b8cac846678457"
+            },
+            {
+              "path": "scripts/vscripts/mapspawn.nut",
+              "sha256": "0a1139812204d68668448646e5fd2e5b931e1ddaa680c46cb132c864decd33d2"
+            },
+            {
+              "path": "scripts/vscripts/sigf_bricks.nut",
+              "sha256": "23d877773f445f03bedf295273be42e0fe8c35dbcb5c511ba51907eb975681ee"
+            },
+            {
+              "path": "scripts/vscripts/sigf_idle.nut",
+              "sha256": "058ebd51ad50186353a76e92c22edc3adfdca80e2d93cc2f5c8b4234c7e0defc"
+            },
+            {
+              "path": "scripts/vscripts/sigf_lib.nut",
+              "sha256": "05dd16f6c6c6ba2ff731f3a7c5ab86f5f772bf9f47bcf7615b95b9474ec53175"
+            },
+            {
+              "path": "scripts/vscripts/sigf_mode.nut",
+              "sha256": "b2f2524f92d28a7bcc12921baebee0ad449e36db7cd9d8ff8d6de6ff57591beb"
+            },
+            {
+              "path": "scripts/vscripts/sigf_stage.nut",
+              "sha256": "f3b8a1830808ccc13613df47ee6d5e421a87b11c9ce360929f85a879558f3bf5"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/portal2-fallout-4-takeover/releases/download/v1.0.0/portal2-fallout-4-takeover-game-kit.zip",
+          "sha256": "9b1a6d8b9408053dc005df255d5f35785cfe9e20d46b2efc89360cbd92c1c389",
+          "size": 51063
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "portal2",
+      "args": [
+        "-game",
+        "sigf_fallout_4_takeover"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "portal2-fallout-4-takeover.zip",
+      "url": "https://github.com/SIGFAI/portal2-fallout-4-takeover/releases/download/v1.0.0/portal2-fallout-4-takeover.zip",
+      "sha256": "72a46acd3306da166f573b627501a7227384cfc9e962db7de8f2cc115f873483",
+      "size": 24465425
+    },
+    {
+      "name": "portal2-fallout-4-takeover-game-kit.zip",
+      "url": "https://github.com/SIGFAI/portal2-fallout-4-takeover/releases/download/v1.0.0/portal2-fallout-4-takeover-game-kit.zip",
+      "sha256": "9b1a6d8b9408053dc005df255d5f35785cfe9e20d46b2efc89360cbd92c1c389",
+      "size": 51063
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/portal2-fallout-4-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-07-e070d718.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "portal2",
+    "status": "draft"
+  },
+  "built_at": "2026-10-07T00:13:25.568Z",
+  "notes": [
+    "Copy the mod folders plus the kit's game folder into a new folder named sigf inside your Portal 2 install, then start Portal 2 with the options -game sigf +sv_cheats 1 +map sp_a2_laser_chaining and watch the chamber change."
+  ]
+}
