@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/sigf/sigf_cap"
+	"$halflambert" "1"
+	"$selfillum" "1"
+}

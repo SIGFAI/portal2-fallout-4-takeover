@@ -1,0 +1,6 @@
+Clip moments (demo plays them in this order; ticked only when seen in the preview screenshots):
+[x] 1. 0-10 s  The chamber turns into a Fallout wasteland: green Pip-Boy haze, HUD (HP, CAPS, RADS, compass), "WAR. WAR NEVER CHANGES." narrator, giant vault-mascot bobblehead, Vault-Tec supply crates instead of cubes, Nuka-pop bottles and bottle caps.
+[x] 2. 8-14 s  Walking through floating bottle caps raises the CAPS counter; the Mr. Handy-style bot torches a radroach (flames, red hit flash, sparks, "RADROACH DOWN +XP").
+[x] 3. 16-23 s Portal interaction: blue + orange portals on the panels; a Vault-Tec crate thrown into the blue portal comes out of the orange one with its speed and flattens a dozing radroach.
+[x] 4. 25-37 s Portal interaction: a mini nuke falls through a portal rift, is flung up with the kept speed, lands and detonates: white flash, fire columns, rising mushroom cloud, shockwave, RADS counter.
+[x] 5. 40-46 s V.A.T.S.: slow motion with green overlay, targets listed with hit chance, then critical hits kill the roaches.

@@ -1,0 +1,1 @@
+Copy the mod folders plus the kit's game folder into a new folder named sigf inside your Portal 2 install, then start Portal 2 with the options -game sigf +sv_cheats 1 +map sp_a2_laser_chaining and watch the chamber change.

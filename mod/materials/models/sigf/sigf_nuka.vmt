@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/sigf/sigf_nuka"
+	"$halflambert" "1"
+	"$selfillum" "1"
+}
